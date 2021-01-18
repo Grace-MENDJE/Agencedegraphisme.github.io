@@ -1,0 +1,40 @@
+header{
+    display: flex;
+}
+
+p{
+    display: flex;
+    order: 1;
+    margin-left: 10%;
+    
+}
+
+nav{
+    display: flex;
+    order: 2;
+    margin-left: 30%;
+   
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:right;
+    padding-top: 15%; 
+}
+
+li{
+padding: 15px;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: black;
+}
