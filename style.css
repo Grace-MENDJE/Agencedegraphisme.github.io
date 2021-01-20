@@ -1,11 +1,14 @@
 /*La partie Générale*/
-
+ body{
+    font-family: 'Roboto', sans-serif;
+    width:1100px;
+    margin:120px;
+    margin-top: 0%;
+ }
 /*La partie header*/
 
 header{
-    display: flex;
-    width: 80%;
-    
+    display: flex;  
     height: 120px;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -15,19 +18,22 @@ header{
 #logo{
     display: flex;  
     order: 1;
-    margin-left: 10%;
     margin-bottom: 0%;
+    margin-top: 0%;
+    justify-content: flex-start;
+    
     
 }
 
 nav{
     display: flex;
-   margin-top: 18px;
+    margin-top: 18px;
     height: 100px;  
     align-content: flex-end;
+    margin-left: 49.5%;
 }  
 
-ul{
+nav ul{
     display: flex;
     list-style-type: none;    
     padding-top: 15%; 
@@ -36,7 +42,7 @@ ul{
 
 }
 
-li{
+nav ul li{
     display: flex;
     align-items: stretch;
     padding-left: 10px;
@@ -59,7 +65,8 @@ nav ul li a{
 
 #central{  
     flex-direction: column;  
-    width: 80%;
+    display: flex;   
+    align-items: stretch; 
     margin-top: 0%;    
 }
 
@@ -67,19 +74,18 @@ nav ul li a{
     display: flex;
     background-image: url("images/backgroung_image.jpg");    
     flex-direction: column; 
-    align-items: center; 
-    margin-left: 10%;   
+    align-items: center;  
+    justify-content: center;   
     height: 350px;
-    width: 960px;
+    width:1100px;
 }
 
-.logo-central{
-    order: 1;
-    margin-top: 60%;
+.logo-central{     
     width: 200px;
 }
 
 h1{
+    display: flex;
     color: white;
     margin-top: 0;
     font-size: 30px;
@@ -88,50 +94,53 @@ h1{
 #description{
     display: flex;
     flex-direction: row;
-    text-align: center;
-    order: 2;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 10px;    
+    text-align: center;
     font-size: 25px;
+    width: 1000px;
+    padding-left: 5%;
+   
+
 }
 
-#description + p{
-    order: 1;    
+/*#description + p{
+    display: flex;
+     
+}*/
+
+#contenue{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 900px;
+    margin-left: 70px;
 }
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 h3{
     text-align: center;
     align-items: center;
     margin-top: 50px;
+}    
     
-    
-}
-
-#contenue{
-    display: flex;  
-    margin-left: 10%;
-    margin-right: 10%;
-    padding:20px;  
-    flex-direction:row;
-    justify-content:space-around;   
-    
-}
 
 #graphisme{
-      align-items: left;
-      text-align: center;   
-      
+      text-align: center;  
+      width: 400px;  
 }
 
 #strategie{
-    align-items: center;
     text-align: center;
+    width: 450px;  
 }  
 
 #illustrations {
-    align-items: right;
     text-align: center;    
 }
 
@@ -142,7 +151,91 @@ blockquote{
     font-size: 22px;
 }
 
-blockquote footer{
+blockquote #auteur{
     display: flex;
     order: 2;
 }
+
+footer{
+    display: flex;
+    width:1097px;
+    flex-direction: column;
+    background-color: rgb(76, 12, 179);
+    color: white;
+    border: 3px solid black;
+}
+
+#parafoot{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#reseausociaux{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+i{
+    display: flex;
+    color: gray;
+    font-size: 30px;
+    margin: 60px;
+    
+
+}
+
+#divers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+h4{
+    color: gray;
+}
+
+#acces{
+    color: white;
+}
+
+#acces ul li a{
+    color: white;
+}
+
+#apropos{
+    margin-left: 80px;   
+}
+
+#apropos ul li a{
+    color:white;
+}
+
+#coordonnees{
+    color: white;
+    margin-left: 60px;
+}
+
+address{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
