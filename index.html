@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" 
 rel="stylesheet"> 
+<link rel="stylesheet" media="screen" href="screen.css">
     <title>Agence de graphisme</title>
 </head>
 <body>
-   
+   <div class="main">
     <header>
-       <figure id="logo">
+       <figure class="logo">
         <img src="images/logo_long.png" 
         alt="Logo_page" title="Accueil" />       
        </figure> 
@@ -26,26 +27,28 @@ rel="stylesheet">
             </ul>
         </nav>
     </header>
-    <section id = central>
 
-        <div id="images">
+    
+    <div class = central>
+
+        <section class="baniere">
          
             <figure id="image-logo">
                 <img src="images/logo_long.png" class="logo-central" 
                 alt="Logo_page" title="Accueil" />
             </figure>
             <h1>Agence de graphisme</h1>
-        </div>
+        </section>
 
-       <div id="description">
+       <div class="description">
         <p>Mon petit graphisme est une Agence de graphisme 
             qui aide 
             les entreprises à <br/>créer des visuels attractifs</p>
        </div>
         
 
-        <div id="contenue">
-            <div id="graphisme">
+        <div class="contenue">
+            <div class="graphisme">
                 
                 <figure class="graphic">
                     <img src="images/graphic-design.png"  alt="Icon"> 
@@ -55,7 +58,7 @@ rel="stylesheet">
                      des affiches, nous réalisons des visuels<br/> dont 
                     vous serez fier</p>
             </div>
-            <div id="strategie">
+            <div class="strategie">
                 
                 <figure class="graphic">
                     <img src="images/strategie.png"  alt="Icon">
@@ -65,7 +68,7 @@ rel="stylesheet">
                     nous prenons le temps de<br/> comprendre vos objectifs et nous
                     nous<br/>  adaptons à vos besoins</p>
             </div>
-            <div id="illustrations">
+            <div class="illustrations">
                 
                 <figure class="graphic">
                     <img src="images/illustrations.png" alt="Icon">
@@ -88,21 +91,21 @@ rel="stylesheet">
   
   
 
-    </section>
+    </div>
 
 <footer>
-    <div id="parafoot">
+    <div class="parafoot">
         <p>Mon petit graphisme-Agence de graphisme basée à Paris</p>
     </div>
 
-    <div id = "reseausociaux">
+    <div class= "reseausociaux">
         <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>        
         <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
-    <div id="divers">
+    <div class="divers">
 
-        <div id="acces">
+        <div class="acces">
             <h4>Accès rapides</h4>
           <ul>
               <li> <a href="#">Accueil</a> </li>
@@ -110,7 +113,7 @@ rel="stylesheet">
           </ul>
         </div>
 
-        <div id="apropos">
+        <div class="apropos">
             <h4>A propos</h4>
             <ul>
                 <li> <a href="#">Données personnelles</a></li>
@@ -118,7 +121,7 @@ rel="stylesheet">
                 <li> <a href="#">Cookies</a></li>
             </ul>
         </div>        
-        <div id="coordonnees">
+        <div class="coordonnees">
             <h4>Cordonnées</h4>
         <address>10 Quai de Charente <br/>75019 Paris <br/>
              0123456789</address>
@@ -126,7 +129,7 @@ rel="stylesheet">
 
     </div>
 </footer>
-
+</div>
 </body>
 
 </html>

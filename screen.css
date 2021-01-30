@@ -1,0 +1,216 @@
+@media screen and (max-width: 780px){
+    .main{
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        margin: 0%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2%;
+        width: 95%;     
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+      
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;  
+        padding-right: 60%;      
+        list-style-type: none;
+
+    }
+
+    nav ul li{
+        display: flex; 
+        margin-right: 30%;       
+    }
+
+    a:hover{
+        color: chocolate;
+    }
+    
+    a:link{
+        text-decoration: none;
+    }
+    
+    nav ul li a{
+        color: black;
+    }
+
+    .central{
+        margin-bottom: 0%;
+    }
+
+    .baniere{
+        display: flex;
+        background-image: url("images/backgroung_image.jpg");    
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;   
+        width:95%;      
+        margin-left: 2%; 
+        
+    }
+
+    .logo-central{ 
+        display: flex;
+        justify-content: center;
+        align-self: center;    
+        width: 70%;
+        padding-left: 12%;
+        padding-top: 10%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    h1{
+        display: flex;
+        color: white;
+        margin-top: 0;
+        padding-top: 0%;
+        font-size: 25px;
+        padding-bottom: 7%;
+        padding-right: 5%;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        width: 95%;
+        padding-left: 15 px;
+        margin-left: 2%;    
+    }
+
+    .contenue{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        width: 95%;
+        margin-left: 2%;   
+     
+    }
+    
+    h3{
+        text-align: center;
+        align-items: center;
+        margin-top: 17px;
+    }  
+
+    .graphic{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .graphisme{
+        text-align: center;  
+        width: 95%;  
+  }
+
+    .strategie{
+        text-align: center;
+        width: 95%;  
+        
+    }  
+    
+    .illustrations {
+        text-align: center; 
+        width: 95%;   
+    }
+
+    blockquote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        font-size: 20px;
+        width: 95%;
+        margin-left: 2%;
+        margin-bottom: 0%;
+        margin-top: 0%; 
+    }
+
+    footer{
+        display: flex;
+        width:95%;
+        margin-left: 2%;        
+        flex-direction: column;
+        background-color: rgb(76, 12, 179);
+        color: white;        
+    }
+    
+    .parafoot{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .reseausociaux{
+        display: flex;
+        color: white;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+    i{
+        display: flex;
+        color: gray;
+        font-size: 15px;
+        margin: 30px;
+        
+    
+    }
+
+    .divers{
+        display: flex;
+        flex-direction: column;  
+        align-items: center;    
+        
+    }
+
+    h4{
+        color: gray;
+    }
+    
+    .acces{
+        color: white;
+    }
+    
+    .acces ul li a{
+        color: white;
+    }
+
+    .apropos{
+        margin-left: 90px;   
+    }
+    
+    .apropos ul li a{
+        color:white;
+    }
+
+    .coordonnees{
+        margin-left: 60px;
+    }
+    
+    address{
+        padding-left: 20px;
+    }
+}

@@ -1,28 +1,27 @@
 /*La partie Générale*/
- body{
+.main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
     font-family: 'Roboto', sans-serif;
     width:1100px;
-    margin:120px;
-    margin-top: 0%;
- }
+}
 /*La partie header*/
 
 header{
-    display: flex;  
-    height: 120px;
+    display: flex; 
+    width: 1100px;
+    height: auto;
     flex-direction: row-reverse;
     justify-content: space-between;
-
 }
 
-#logo{
+.logo{
     display: flex;  
     order: 1;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    justify-content: flex-start;
+    margin: 0%;
     
-    
+    justify-content: flex-start;   
 }
 
 nav{
@@ -30,7 +29,7 @@ nav{
     margin-top: 18px;
     height: 100px;  
     align-content: flex-end;
-    margin-left: 49.5%;
+   
 }  
 
 nav ul{
@@ -63,14 +62,14 @@ nav ul li a{
 
 /*La partie central*/
 
-#central{  
+.central{  
     flex-direction: column;  
     display: flex;   
     align-items: stretch; 
     margin-top: 0%;    
 }
 
-#images{
+.baniere{
     display: flex;
     background-image: url("images/backgroung_image.jpg");    
     flex-direction: column; 
@@ -91,24 +90,17 @@ h1{
     font-size: 30px;
 }
 
-#description{
+.description{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     width: 1000px;
     padding-left: 5%;
-   
-
 }
 
-/*#description + p{
-    display: flex;
-     
-}*/
-
-#contenue{
+.contenue{
     display: flex; 
     flex-direction: row;
     justify-content: space-around; 
@@ -130,17 +122,17 @@ h3{
 }    
     
 
-#graphisme{
+.graphisme{
       text-align: center;  
       width: 400px;  
 }
 
-#strategie{
+.strategie{
     text-align: center;
     width: 450px;  
 }  
 
-#illustrations {
+.illustrations {
     text-align: center;    
 }
 
@@ -165,13 +157,13 @@ footer{
     border: 3px solid black;
 }
 
-#parafoot{
+.parafoot{
     text-align: center;
     color: white;
     font-weight: bold;
 }
 
-#reseausociaux{
+.reseausociaux{
     display: flex;
     color: white;
     flex-direction: row;
@@ -188,7 +180,7 @@ i{
 
 }
 
-#divers{
+.divers{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -199,23 +191,23 @@ h4{
     color: gray;
 }
 
-#acces{
+.acces{
     color: white;
 }
 
-#acces ul li a{
+.acces ul li a{
     color: white;
 }
 
-#apropos{
+.apropos{
     margin-left: 80px;   
 }
 
-#apropos ul li a{
+.apropos ul li a{
     color:white;
 }
 
-#coordonnees{
+.coordonnees{
     color: white;
     margin-left: 60px;
 }
